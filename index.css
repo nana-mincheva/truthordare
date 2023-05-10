@@ -275,3 +275,45 @@ p {
     text-align: center;
     color:hsl(186 100% 69%);
 }
+
+.add_input {
+display: flex;
+justify-content: center;
+width: 100%;
+margin-top: 130px;
+padding: 16px 20px;
+/* border: 3px solid hsl(186 100% 69%);; */
+border-radius: 1px;
+background-color: #000000;
+color: aqua
+};
+
+.add_input:hover{
+    box-shadow: rgba(0, 255, 242, 0.2) 0px 7px 29px 0px;
+}
+
+.add_input:focus {
+    box-shadow: rgba(0, 255, 242, 0.2) 0px 7px 29px 0px;
+}
+
+.add_button{
+    margin-top: 30px;
+    text-align: center;
+    color: var(--glow-color);
+    cursor: pointer;
+    border: 0.15em solid var(--glow-color);
+    border-radius: 0.45em;
+    background: none;
+    perspective: 2em;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+     letter-spacing: 1em;
+     padding: 10px 20px;
+    
+    -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+     0px 0px 0.5em 0px var(--glow-color);
+    -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+    box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+}

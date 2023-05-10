@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +9,21 @@
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <h1>LET'S PLAY TRUTH OR DARE</h1>
         <p id="text"></p>
         <div class="button_wrapper">
-        <button id="generate" type="button" class="glowing-btn"><span class="glowing-txt">G<span class="faulty-letter">E</span>NERATE</span></button>
+            <button id="generate" type="button" class="glowing-btn"><span class="glowing-txt">G<span
+                        class="faulty-letter">E</span>NERATE</span></button>
+        </div>
+        <div>
+            <input type="text" id="new-phrase-input" class="add_input">
+            <button id="add-phrase-button" class="add_button">Add Phrase</button>
+            <button id="delete-all-button" class="add_button">Delete All</button>
         </div>
     </div>
-    <script src="./index.js" type="module"></script>   
+    <script src="./index.js" type="module"></script>
 </body>
 </html>
